@@ -19,7 +19,7 @@ async def status_task():
     while True:
         await client.change_presence(game=discord.Game(type=1,name='VELOCITY'))
         await asyncio.sleep(5)
-        await client.change_presence(game=discord.Game(type=1,name="With My girl friend"))
+        await client.change_presence(game=discord.Game(type=1,name="With No girl friend"))
         await asyncio.sleep(5)
         await client.change_presence(game=discord.Game(name='with higer studies',type=3))
         await asyncio.sleep(5)
@@ -48,4 +48,4 @@ async def on_ready():
 
 
 
-client.run("TOKEN", bot=False)
+client.run("NTMxMzU4NDk0MjUxNjc5NzQ0.XUALnw.I15Ghk86O1FYOquduYzQU6ZMkUI", bot=False)
