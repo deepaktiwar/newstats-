@@ -48,4 +48,4 @@ async def on_ready():
 
 
 
-client.run("NTMxMzU4NDk0MjUxNjc5NzQ0.XYnHjQ.OX1ICzp2pPZo8UfuDx1A0wZklq4", bot=False)
+client.run("NTMxMzUzMjgxMTU5NDk1Njgx.XYwtKQ.kRQStC2TGRTv9At_0XohFUInwgY", bot=False)
