@@ -16,6 +16,7 @@ client.remove_command('help')
 
 
 async def status_task():
+    print('Do Not Disturb')
     while True:
         await client.change_presence(game=discord.Game(type=1,name='with ⎝⧹𝗗𝗿. BOSS™╱⎠'))
         await asyncio.sleep(5)
@@ -46,6 +47,4 @@ async def on_ready():
     print('Created by ansh arya')
     client.loop.create_task(status_task())
 
-
-
-client.run("NjM0ODE4MDY2MDM4OTE1MTI3.Xas9mg.spm9uFDCLC6GRgbMwr-wwSZSaDk", bot=False)
+bot.run("NjM5MTM3OTM2NzYzNTE4OTky.XcPPXQ.EaPpE6tYdSdCi9YaF5-nXmaaye8")
