@@ -47,4 +47,5 @@ async def on_ready():
     print('Created by ansh arya')
     client.loop.create_task(status_task())
 
+
 Clinet.run("NjM5MTM3OTM2NzYzNTE4OTky.XcPPXQ.EaPpE6tYdSdCi9YaF5-nXmaaye8")
