@@ -48,4 +48,4 @@ async def on_ready():
     client.loop.create_task(status_task())
 
 
-Clinet.run("NjUyMjA0MDMyMDk3NTE3NTk4.XeonRg.gD1UTNvc3LYMCy9RLy66Q2rD4rs")
+Clinet.run("NTU3MjE2MzYwNDMwNjk4NDk2.XUqBsA.SEiHAytIwiwF7ZxorrP2ABjyV80")
